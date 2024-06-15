@@ -1,0 +1,3 @@
+single-server/.terraform
+single-server/*.tfstate
+single-server/*.tfstate.backup
