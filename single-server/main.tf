@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   # configuration here
-  project = "praxis-magnet-419906"
+  project = "<project ID here>"
   region  = "us-east1"
   zone    = "us-east1-c"
 }
