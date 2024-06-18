@@ -7,7 +7,7 @@ port = 9000
 
 @app.route("/")
 def main():
-    return f"<h1>Wilkommen!</h1> | running: VM_EXTERNAL_IP/{port}"
+    return f"<h1>Willkommen!</h1> | running: VM_EXTERNAL_IP/{port}"
 
 
 if __name__ == "__main__":
