@@ -1,3 +1,6 @@
 **/.terraform
 **/*.tfstate
 **/*.tfstate.backup
+tfServiceAccount.json
+service-impersonation.sh
+service-account.sh
