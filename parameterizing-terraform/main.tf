@@ -6,6 +6,7 @@ terraform {
     }
   }
 }
+
 resource "google_compute_instance" "server" {
   name         = var.server_name
   machine_type = var.machine_type
@@ -16,7 +17,7 @@ resource "google_compute_instance" "server" {
     }
   }
   network_interface {
-    network = google_compute_firewall.default.network.self_link
+    network = "default"
     access_config {
       // Ephemeral public IP
     }
@@ -24,9 +25,4 @@ resource "google_compute_instance" "server" {
   metadata_startup_script = file("server.sh")
   tags                    = ["http-server"]
 
-}
-
-resource "google_compute_firewall" "default" {
-  name    = "default-allow-http"
-  network = default
 }
