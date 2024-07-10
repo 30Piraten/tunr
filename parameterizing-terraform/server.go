@@ -26,11 +26,11 @@ func paramsServer(w http.ResponseWriter, r *http.Request) {
 	res := paramsServerResponse{
 		Author:      "Victor Raeva",
 		Description: "Parameterizing Terraform",
-		Occupation:  "Cloud Engineer",
+		Occupation:  "Cloud Engineer", 
 	}
 
 	w.Header().Set("Content-Type", "application/json")
 
 	encoder := json.NewEncoder(w)
-	encoder.Encode(&res)
+	encoder.Encode(&res) 
 }
