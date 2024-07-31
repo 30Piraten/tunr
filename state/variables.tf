@@ -12,7 +12,7 @@ variable "region" {
 variable "zone" {
   type        = string
   description = "Zone specified for the project in use"
-  default     = "us-east1-c"
+  default     = "us-east1-b"
 }
 
 variable "server_name" {

@@ -1,2 +1,2 @@
-project_id  = "gtf-cloudr3"
-server_name = "tf-params-server"
+project_id  = "gcterraform"
+server_name = "state"

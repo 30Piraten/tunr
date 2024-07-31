@@ -1,14 +1,14 @@
 terraform {
+  required_version = "~> 1.8.2"
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = ">= 5.0.0"
+      version = "~> 5.0.0"
     }
   }
 }
 
 resource "google_compute_instance" "statefile" {
-  #   labels = { "env" : "sandbox" }
 
   name         = var.server_name
   machine_type = var.machine_type
