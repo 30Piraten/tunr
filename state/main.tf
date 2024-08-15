@@ -10,7 +10,9 @@ terraform {
 
 resource "google_compute_instance" "statefile" {
 
-  name         = var.server_name
+  # provider = google
+  count = 3
+  name         = "${var.server_name} - ${count.index}"
   machine_type = var.machine_type
 
   boot_disk {
