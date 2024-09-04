@@ -1,6 +1,5 @@
 project_id   = "gcterraform"
 region       = "us-east1"
 zone         = "us-east1-b"
+server_name  = "ref-vm-data"
 machine_type = "e2-medium"
-server_name  = "static-ip-addr"
-# static_ip = false
