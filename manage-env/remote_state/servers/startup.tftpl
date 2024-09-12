@@ -1,0 +1,11 @@
+#! /bin/bash
+
+apt update
+apt -y install apache2
+cat <<EOF > /var/www/html/index.html
+<html>
+    <body>
+        <p>Hallo, Willkommen!</p>
+        <p>The connection_name for DB is: ${connection_name}
+    </body>
+</html>

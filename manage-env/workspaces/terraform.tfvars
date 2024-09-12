@@ -1,4 +1,4 @@
-project_id = "gcterraform"
+project_id = "----"
 zone       = "us-east1-b"
 env        = "dev-env"
 

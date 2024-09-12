@@ -1,4 +1,4 @@
-project_id = "gcterraform"
+project_id = "----"
 network    = "my-network"
 
 // Subnet declaration

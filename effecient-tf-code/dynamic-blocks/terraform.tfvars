@@ -1,4 +1,4 @@
-project_id   = "gcterraform"
+project_id   = "----"
 server_name  = "dynamic-block"
 zone         = "us-east1-b"
 machine_type = "e2-medium"

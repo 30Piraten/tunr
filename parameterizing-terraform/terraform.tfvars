@@ -1,2 +1,2 @@
-project_id  = "gcterraform"
+project_id  = "----"
 server_name = "state"
